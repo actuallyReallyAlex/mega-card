@@ -1,0 +1,1 @@
+export { default as MegaCard } from './components/MegaCard';

@@ -1,2 +1,2 @@
-# cool-card
-A cool card React component.
+# mega-card
+A card React component.
