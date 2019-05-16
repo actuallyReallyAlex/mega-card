@@ -9,6 +9,10 @@ module.exports = {
           }
         }
       ]
+    },
+    output: {
+      library: 'mega-card',
+      libraryTarget: 'commonjs2'
     }
   }
   
