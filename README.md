@@ -28,3 +28,17 @@ const App = () => {
 
 export default App
 ```
+
+## Options
+
+```js
+{
+  background: 'white' // Background color.
+  color: 'blue' // Theme color.
+  data: '$100.00' // Data to display.
+  indicator: true // Whether or not to display an indicator bubble.
+  shadowSize: 'small' // Size of box-shadow
+  shadowType: 'dark' // Color of box-shadow.
+  title: 'Title' // Title to display.
+}
+```
