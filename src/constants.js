@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types'
+import * as grommetIcons from 'grommet-icons'
+
+export const icons = grommetIcons
 
 export const propTypes = {
-  background: PropTypes.string.isRequired,
+  background: PropTypes.string,
   color: PropTypes.oneOf([
     'blue',
     'dark',
@@ -10,23 +13,24 @@ export const propTypes = {
     'green',
     'red',
     'violet'
-  ]).isRequired,
+  ]),
   data: PropTypes.any.isRequired,
-  indicator: PropTypes.bool.isRequired,
-  shadowSize: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge'])
-    .isRequired,
-  shadowType: PropTypes.oneOf(['dark', 'light']).isRequired,
-  title: PropTypes.string.isRequired
+  icon: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
+  indicator: PropTypes.bool,
+  shadowSize: PropTypes.oneOf(['xsmall', 'small', 'medium', 'large', 'xlarge']),
+  shadowType: PropTypes.oneOf(['dark', 'light']),
+  title: PropTypes.string.isRequired,
+  titleColor: PropTypes.string,
+  type: PropTypes.string.isRequired
 }
 
 export const defaultProps = {
   background: 'white',
   color: 'blue',
-  data: '$100.00',
+  icon: 'Info',
   indicator: true,
   shadowSize: 'small',
-  shadowType: 'dark',
-  title: 'Title'
+  shadowType: 'dark'
 }
 
 export const colors = {
