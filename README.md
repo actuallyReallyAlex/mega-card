@@ -36,9 +36,12 @@ export default App
   background: 'white' // Background color.
   color: 'blue' // Theme color.
   data: '$100.00' // Data to display.
+  icon: 'Info' // Grommet Icon to display.
   indicator: true // Whether or not to display an indicator bubble.
   shadowSize: 'small' // Size of box-shadow
   shadowType: 'dark' // Color of box-shadow.
   title: 'Title' // Title to display.
+  titleColor: 'blue' // Color of Title.
+  type: 'card' // Type of MegaCard to render.
 }
 ```
