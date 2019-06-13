@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MegaCard /> Should render the <MegaCard /> component as a card. 1`] = `ShallowWrapper {}`;
+
+exports[`<MegaCard /> Should render the <MegaCard /> component as a pill. 1`] = `ShallowWrapper {}`;
