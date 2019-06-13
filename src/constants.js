@@ -21,7 +21,7 @@ export const propTypes = {
   shadowType: PropTypes.oneOf(['dark', 'light']),
   title: PropTypes.string.isRequired,
   titleColor: PropTypes.string,
-  type: PropTypes.string.isRequired
+  type: PropTypes.oneOf(['card', 'pill'])
 }
 
 export const defaultProps = {

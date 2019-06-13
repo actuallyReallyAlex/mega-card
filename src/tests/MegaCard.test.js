@@ -21,4 +21,9 @@ describe('<MegaCard />', () => {
     const component = shallow(<MegaCard {...defaultProps} type="pill" />)
     expect(component).toMatchSnapshot()
   })
+
+  test('Should render the <MegaCard /> component as default.', () => {
+    const component = shallow(<MegaCard {...defaultProps} />)
+    expect(component).toMatchSnapshot()
+  })
 })
